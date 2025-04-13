@@ -26,12 +26,16 @@ for (let i = 0; i < fruits.length; i++ ){
     console.log(fruits[i].toUpperCase());
 };
 
-// for (let i = 0; i < fruits.length; i++ ){
-//     if (fruits[i] === "apple") {
-//         i++;
-//     }
-//     }
-//     console.log(fruits[i]);
+let count =0
+for (let i = 0; i < fruits.length; i++ ){
+    if (fruits[i] === "apple") {
+        count++;
+        // console.log( `The fruit apple appears ${count} times.`);
+    }     
+    
+    }
+    console.log( `The fruit apple appears ${count} times.`);
+
 
 console.log('------ Part 4--------'); //Part 4
 let cart =[]
